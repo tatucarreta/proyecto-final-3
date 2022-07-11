@@ -1,0 +1,23 @@
+h5{
+    color: white;
+
+}
+.t{
+    visibility: hidden;
+}
+@for $i from 1 to 12{
+    .animacion#{$i}:hover {
+        background-color: white;
+        color: black;
+        margin-left: 30px;
+        .t{
+            visibility: unset;
+            color: black;
+            text-align: right;
+        }
+        h5{
+            visibility: hidden;
+        }
+    }
+
+}

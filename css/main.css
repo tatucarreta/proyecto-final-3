@@ -1,29 +1,18 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background: #111111;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(17, 17, 17, 0.441614)), color-stop(89%, black));
   background: linear-gradient(0deg, rgba(17, 17, 17, 0.441614) 0%, black 89%);
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
-body header {
-  background-color: black;
-}
-
-body header .nav {
-  background-color: black;
-}
-
-body .nav ul {
-  color: black;
-  text-decoration: none;
-  background-color: grey;
-  font-family: 'Lora', serif;
-  font-size: 20px;
-  font-weight: 3px;
-}
-
-body .nav ul a {
+body p {
+  color: white;
   font-family: 'Lora', serif;
   font-size: 20px;
   font-weight: 3px;
@@ -33,11 +22,12 @@ body hr {
   color: none;
 }
 
-body main p {
+h5 {
   color: white;
-  font-family: 'Lora', serif;
-  font-size: 20px;
-  font-weight: 3px;
+}
+
+.t {
+  visibility: hidden;
 }
 
 .animacion1:hover {
@@ -46,10 +36,30 @@ body main p {
   margin-left: 30px;
 }
 
+.animacion1:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion1:hover h5 {
+  visibility: hidden;
+}
+
 .animacion2:hover {
   background-color: white;
   color: black;
   margin-left: 30px;
+}
+
+.animacion2:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion2:hover h5 {
+  visibility: hidden;
 }
 
 .animacion3:hover {
@@ -58,10 +68,30 @@ body main p {
   margin-left: 30px;
 }
 
+.animacion3:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion3:hover h5 {
+  visibility: hidden;
+}
+
 .animacion4:hover {
   background-color: white;
   color: black;
   margin-left: 30px;
+}
+
+.animacion4:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion4:hover h5 {
+  visibility: hidden;
 }
 
 .animacion5:hover {
@@ -70,10 +100,30 @@ body main p {
   margin-left: 30px;
 }
 
+.animacion5:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion5:hover h5 {
+  visibility: hidden;
+}
+
 .animacion6:hover {
   background-color: white;
   color: black;
   margin-left: 30px;
+}
+
+.animacion6:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion6:hover h5 {
+  visibility: hidden;
 }
 
 .animacion7:hover {
@@ -82,10 +132,30 @@ body main p {
   margin-left: 30px;
 }
 
+.animacion7:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion7:hover h5 {
+  visibility: hidden;
+}
+
 .animacion8:hover {
   background-color: white;
   color: black;
   margin-left: 30px;
+}
+
+.animacion8:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion8:hover h5 {
+  visibility: hidden;
 }
 
 .animacion9:hover {
@@ -94,10 +164,30 @@ body main p {
   margin-left: 30px;
 }
 
+.animacion9:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion9:hover h5 {
+  visibility: hidden;
+}
+
 .animacion10:hover {
   background-color: white;
   color: black;
   margin-left: 30px;
+}
+
+.animacion10:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion10:hover h5 {
+  visibility: hidden;
 }
 
 .animacion11:hover {
@@ -106,17 +196,35 @@ body main p {
   margin-left: 30px;
 }
 
+.animacion11:hover .t {
+  visibility: unset;
+  color: black;
+  text-align: right;
+}
+
+.animacion11:hover h5 {
+  visibility: hidden;
+}
+
+fieldset {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+}
+
 footer {
   background-color: red;
 }
 
 footer h4 {
   color: black;
-  font-size: 2rem;
+  font-size: 25px;
 }
 
 footer a {
-  color: red;
+  color: black;
   font-family: 'Lora', serif;
   font-size: 20px;
   font-weight: 3px;
